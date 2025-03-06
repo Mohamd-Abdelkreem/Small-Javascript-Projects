@@ -109,6 +109,4 @@ btnhold.addEventListener('click', function () {
 });
 
 // Event listener for starting a new game...
-btnnewGame.addEventListener('click', function () {
-  resetTheGame();
-});
+btnnewGame.addEventListener('click', resetTheGame);
