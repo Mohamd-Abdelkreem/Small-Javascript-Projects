@@ -67,6 +67,7 @@ btnrollDice.addEventListener('click', function () {
   } else {
     // (1 means the player has to start a new round)...
     currScoreOfPlayer = 0;
+    isDiceRolled = 0;
     document.querySelector(`#current--${whichPlayer}`).textContent =
       currScoreOfPlayer;
     whichPlayer = whichPlayer === 0 ? 1 : 0;
