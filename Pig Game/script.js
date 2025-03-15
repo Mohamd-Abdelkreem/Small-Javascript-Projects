@@ -100,6 +100,11 @@ btnhold.addEventListener('click', function () {
       }, 300);
       return;
     }
+    currScoreOfPlayer = 0;
+    isDiceRolled = 0;
+    document.querySelector(`#current--${whichPlayer}`).textContent =
+      currScoreOfPlayer;
+    // whichPlayer = whichPlayer === 0 ? 1 : 0;
     // Change the current Player after pressing hold ...
     whichPlayer = whichPlayer === 0 ? 1 : 0;
     SwitchPlayer();
