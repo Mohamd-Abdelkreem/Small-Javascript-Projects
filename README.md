@@ -41,7 +41,9 @@ The goal of these projects is to:
 
 ## 🚀 Live Preview
 
-1- You can view the live version of the Guess My Number project here: [Live Preview](https://guess-my-number-mohamed-abdelkareem.netlify.app/)
+1- You can view the live version of the Guess My Number project here: [Live Preview](https://guess-my-number-mohamed-abdelkareem.netlify.app/).
+
+2- You can view the live version of the Mapty project here: [Live Preview](https://mapty-mohamed-abdelkareem.netlify.app/).
 
 _(Replace the URL above with your actual deployed link)_
 
