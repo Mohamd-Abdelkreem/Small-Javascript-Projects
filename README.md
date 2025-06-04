@@ -47,8 +47,7 @@ The goal of these projects is to:
 
 3- You can view the live version of the Pig Game project here: [Live Preview](https://pig-game-mohamed-abdlkareem.netlify.app/).
 
-
-_(Replace the URL above with your actual deployed link)_
+4- You can view the live version of the Bankist project here: [Live Preview](https://bankist-mohamed-abdelkareem.netlify.app/).
 
 ---
 
