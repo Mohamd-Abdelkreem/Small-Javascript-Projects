@@ -45,6 +45,9 @@ The goal of these projects is to:
 
 2- You can view the live version of the Mapty project here: [Live Preview](https://mapty-mohamed-abdelkareem.netlify.app/).
 
+3- You can view the live version of the Pig Game project here: [Live Preview](https://pig-game-mohamed-abdlkareem.netlify.app/).
+
+
 _(Replace the URL above with your actual deployed link)_
 
 ---
