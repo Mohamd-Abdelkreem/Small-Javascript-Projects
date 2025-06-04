@@ -41,8 +41,7 @@ The goal of these projects is to:
 
 ## 🚀 Live Preview
 
-1. You can view the live version of the **JavaScript Projects Collection** here:  
-   👉 [Live Preview](https://your-js-projects.netlify.app)
+1- You can view the live version of the Guess My Number project here: [Live Preview](https://guess-my-number-mohamed-abdelkareem.netlify.app/)
 
 _(Replace the URL above with your actual deployed link)_
 
