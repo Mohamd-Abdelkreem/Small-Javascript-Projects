@@ -51,6 +51,8 @@ The goal of these projects is to:
 
 5- You can view the live version of the Quiz App project here: [Live Preview](https://quiz-app-mohamed-abelkareem.netlify.app/).
 
+6- You can view the live version of the Color Palette Generator project here: [Live Preview](https://color-palette-mohamed-abd-elkareem.netlify.app/).
+
 ---
 
 Feel free to explore the code, try the projects, or leave suggestions!
