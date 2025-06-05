@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5efe6;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1em;
+  font-family: "Winky Rough", sans-serif;
+}
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+.screen {
+  display: none;
+}
+.active {
+  display: block;
+}
+.start-screen {
+  text-align: center;
+}
+.start-screen h1 {
+  color: #e86a33;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.start-screen p {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+button {
+  background-color: #e86a33;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #d55a2c;
+}
+.question-text {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+.question-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #666;
+}
+.answers-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+.answer-button {
+  background-color: #f8f0e5;
+  color: #333;
+  font-size: 1.2rem;
+  border: 2px solid #eadbc8;
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.3s;
+}
+
+.answer-button:hover {
+  background-color: #eadbc8;
+  border-color: #e86a33;
+}
+.answer-button.correct {
+  background-color: #3ae07d;
+  border-color: #39ac6b;
+  color: #000000;
+}
+.answer-button.incorrect {
+  background-color: #f78787;
+  border-color: #ffbdbd;
+  color: #000000;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.progress {
+  height: 100%;
+  background-color: #e86a33;
+  width: 0;
+  transition: width 0.3s ease;
+}
+.result-screen {
+  text-align: center;
+}
+.result-text {
+  font-size: 2.5rem;
+  color: #e86a33;
+  margin-bottom: 30px;
+}
+.result-info {
+  background-color: #f8f0e5;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+.result-message {
+  font-size: 1.5rem;
+  color: #e86a33;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 0.5em;
+  }
+  .container {
+    padding: 1rem;
+    width: 100%;
+  }
+  .start-screen h1 {
+    font-size: 2rem;
+  }
+  .question-text {
+    font-size: 1.2rem;
+  }
+  .answer-button {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+  .result-sceen h1 {
+    font-size: 2rem;
+  }
+}
