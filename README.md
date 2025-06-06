@@ -53,6 +53,8 @@ The goal of these projects is to:
 
 6- You can view the live version of the Color Palette Generator project here: [Live Preview](https://color-palette-mohamed-abd-elkareem.netlify.app/).
 
+7- You can view the live version of the Kanban Board project here: [Live Preview](https://kanban-board-mohamed-abdelkareem.netlify.app/).
+
 ---
 
 Feel free to explore the code, try the projects, or leave suggestions!
