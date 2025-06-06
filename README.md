@@ -55,6 +55,9 @@ The goal of these projects is to:
 
 7- You can view the live version of the Kanban Board project here: [Live Preview](https://kanban-board-mohamed-abdelkareem.netlify.app/).
 
+8- You can view the live version of the Expense Tracker project here: [Live Preview](https://expense-tracker-mohamed-abdelkareem.netlify.app/).
+
+
 ---
 
 Feel free to explore the code, try the projects, or leave suggestions!
