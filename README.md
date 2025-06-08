@@ -59,6 +59,7 @@ The goal of these projects is to:
 
 9- You can view the live version of the Bookmark Saver project here: [Live Preview](https://bookmark-mohamed-abdelkareem.netlify.app/).
 
+10- You can view the live version of the Password Generator project here: [Live Preview](https://pass-generator-mohamed-abdelkareem.netlify.app/).
 
 ---
 
