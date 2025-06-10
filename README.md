@@ -61,6 +61,8 @@ The goal of these projects is to:
 
 10- You can view the live version of the Password Generator project here: [Live Preview](https://pass-generator-mohamed-abdelkareem.netlify.app/).
 
+11- You can view the live version of the Github User Finder project here: [Live Preview](https://github-finder-mohamed-abdelkareem.netlify.app/).
+
 ---
 
 Feel free to explore the code, try the projects, or leave suggestions!
