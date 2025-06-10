@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Github Finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>
+          <i class="fab fa-github"></i>
+          Github User Finder
+        </h1>
+        <p>
+          Search for GitHub users by username. Click on a user to view their
+          profile and repositories.
+        </p>
+      </header>
+
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Enter GitHub username..."
+        />
+        <button class="search-button">
+          <i class="fas fa-search"></i> Search
+        </button>
+      </div>
+
+      <div class="profile-container hidden">
+        <div class="profile-header">
+          <img src="" alt="Profile Avatar" class="profile-avatar" />
+          <div class="profile-info">
+            <h2 class="profile-name"></h2>
+            <p class="profile-username"></p>
+            <p class="profile-bio"></p>
+            <div class="location-date">
+              <p>
+                <i class="fas fa-map-marker-alt"></i>
+                <span class="profile-location">Not Specified</span>
+              </p>
+              <p>
+                <i class="fas fa-calendar-alt"></i>
+                <span class="profile-joined-date">Joined: Not Specified</span>
+              </p>
+            </div>
+            <a class="profile-link-btn" target="_blank">View Profile</a>
+          </div>
+        </div>
+
+        <div class="profile-stats">
+          <div class="stat-item">
+            <i class="fas fa-users"></i>
+            <span class="stat-followers"></span> Followers
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-user-friends"></i>
+            <span class="stat-friends"></span> Friends
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-code-branch"></i>
+            <span class="stat-repos"></span> Repositories
+          </div>
+        </div>
+
+        <div class="additional-info">
+          <div class="info-item company">
+            <i class="fas fa-building"></i>
+            <a class="profile-company">Not Specified</a>
+          </div>
+          <div class="info-item blog">
+            <i class="fas fa-link"></i>
+            <a class="profile-blog">No Website</a>
+          </div>
+          <div class="info-item twitter">
+            <i class="fab fa-twitter"></i>
+            <a class="profile-twitter" target="_blank">No twitter</a>
+          </div>
+        </div>
+
+        <div class="repos-section">
+          <h3>Latest Repositories</h3>
+          <div class="repos-container">
+            <!-- Repositories will be inserted here dynamically -->
+
+            <!-- <div class="repo-item">
+              <a class="repo-name">
+                <i class="fas fa-code-branch"></i>
+                Repository Name
+              </a>
+              <p class="repo-description">Repository Description</p>
+              <div class="repo-stats">
+                <span class="repo-language">
+                  <i class="fas fa-circle"></i>Not Specified
+                </span>
+                <span class="repo-stars"> <i class="fas fa-star"></i>0 </span>
+                <span class="repo-forks">
+                  <i class="fas fa-code-branch"></i>0
+                </span>
+                <span class="repo-updated">
+                  <i class="fas fa-clock"></i>Not Specified
+                </span>
+              </div>
+            </div> -->
+
+            <div class="loading-repos hidden">
+              <i class="fas fa-spinner fa-spin"></i> Loading Repositories...
+            </div>
+          </div>
+        </div>
+        <div class="no-repos-message hidden">
+          <p>
+            <i class="fas fa-exclamation-circle"></i> No repositories found for
+            this user.
+          </p>
+        </div>
+      </div>
+      <div class="error-message hidden">
+        <p>
+          <i class="fas fa-exclamation-triangle"></i> User not found or an error
+          occurred.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
