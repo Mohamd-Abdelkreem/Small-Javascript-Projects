@@ -235,7 +235,6 @@ async function renderProfileAndRepos() {
 
   //   fetchRepos(userName);
 }
-// fetchProfile("ahmedmitwally77");
 
 searchBtn.addEventListener("click", renderProfileAndRepos);
 searchInput.addEventListener("keypress", (e) => {
